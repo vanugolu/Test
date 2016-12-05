@@ -1,0 +1,10 @@
+bin/
+.classpath
+.project
+.settings
+test-output
+TestingLogs
+images
+inputImages
+.git
+
