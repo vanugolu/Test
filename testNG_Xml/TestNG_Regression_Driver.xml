@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation_Driver" verbose="3">
+
+	<test name="Driver">
+		<classes>
+			<class name="com.aims.Driver"></class>
+		</classes>
+	</test>
+	
+</suite>

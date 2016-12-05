@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AIMS_Automation_SanitySuite" verbose="3" parallel="tests" thread-count="5">
+
+       <test name="Driver">
+             <classes>
+                    <class name="com.aims.Driver"></class>
+             </classes>    
+       </test>
+       
+      <test name="SearchResults">
+	 	<parameter name="moduleName" value="searchResults"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	   <test name="SearchResultsListView2">
+	 	<parameter name="moduleName" value="searchResultsListView2"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+       <test name="SearchResults1">
+	 	<parameter name="moduleName" value="searchResults1"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+       <test name="Home_WhatIsAIMS">
+	 	<parameter name="moduleName" value="home_WhatIsAIMS"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+       <test name="Home_aimsTV">
+	 	<parameter name="moduleName" value="home_aimsTV"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+       <test name="NavigationIcons">
+	 	<parameter name="moduleName" value="navigationIcons"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+       <test name="ManagerProfile">
+	 	<parameter name="moduleName" value="managerProfile"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+       <test name="FundProfile">
+	 	<parameter name="moduleName" value="fundProfile"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+		<test name="FundProfilePage">
+	 	<parameter name="moduleName" value="fundProfilePage"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+       <test name="Insights">
+	 	<parameter name="moduleName" value="insights"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+       <test name="ManagerLanding">
+	 	<parameter name="moduleName" value="managerLanding"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test> 
+
+       	<test name="ManagerLanding2">
+	 	<parameter name="moduleName" value="managerLanding2"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+      <test name="ManagerLanding3">
+	 	<parameter name="moduleName" value="managerLanding3"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+     <test name="ManagerLanding4">
+	 	<parameter name="moduleName" value="managerLanding4"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+       <test name="Workspace_Landing">
+	 	<parameter name="moduleName" value="workspace_Landing"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>	
+	</test>
+       
+       <test name="Workspace_Portfolio">
+	 	<parameter name="moduleName" value="workspace_Portfolio"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>	
+	</test>
+       
+      <test name="Workspace_Dropbox">
+	 	<parameter name="moduleName" value="workspace_Dropbox"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>	
+	</test>
+
+      <test name="Workspace_Library">
+	 	<parameter name="moduleName" value="workspace_Library"/>  
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+      <test name="Workspace_LibraryPage">
+	 	<parameter name="moduleName" value="workspace_LibraryPage"/> 
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+       
+</suite>

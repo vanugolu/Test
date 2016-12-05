@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GSamLib_Regression_Parallel" verbose="3" parallel="tests" thread-count="10">
+
+
+	<test name="Footer">
+		<parameter name="moduleName" value="footer" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	
+	<test name="Header">
+		<parameter name="moduleName" value="header" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStack">
+		<parameter name="moduleName" value="historyStack" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStack2">
+		<parameter name="moduleName" value="historyStack2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStack3">
+		<parameter name="moduleName" value="historyStack3" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStack4">
+		<parameter name="moduleName" value="historyStack4" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStackWorkspace">
+		<parameter name="moduleName" value="historyStackWorkspace" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="HistoryStackWorkspace2">
+		<parameter name="moduleName" value="historyStackWorkspace2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Home_AimsPerspectives ">
+		<parameter name="moduleName" value="home_aimsPerspectives" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Home_AimsTV">
+		<parameter name="moduleName" value="home_aimsTV" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Home_ContactUs">
+		<parameter name="moduleName" value="home_ContactUs" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Home_HowToUseThisSite">
+		<parameter name="moduleName" value="home_HowToUseThisSite" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Home_WhatIsAIMS">
+		<parameter name="moduleName" value="home_WhatIsAIMS" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Insights">
+		<parameter name="moduleName" value="insights" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Insights_AssetClassLanding">
+		<parameter name="moduleName" value="insights_AssetClassLanding" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Insights_AssetClassLanding_2">
+		<parameter name="moduleName" value="insights_AssetClassLanding_2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="InsightsLanding">
+		<parameter name="moduleName" value="insightsLanding" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="InsightsPlaylist">
+		<parameter name="moduleName" value="insightsPlaylist" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="PageTitle">
+		<parameter name="moduleName" value="pageTitle" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	<test name="reverseReplication2">
+		<parameter name="moduleName" value="reverseReplication2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="SearchResults">
+		<parameter name="moduleName" value="searchResults" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="SearchResults1">
+		<parameter name="moduleName" value="searchResults1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="SearchResultsListView2">
+		<parameter name="moduleName" value="searchResultsListView2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="SearchResultsListView3">
+		<parameter name="moduleName" value="searchResultsListView3" />
+		<classes>
+			<class name="com.aims.TestDriver">
+			</class>
+		</classes>
+	</test>
+
+	<test name="SiteMap">
+		<parameter name="moduleName" value="siteMap" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Tooltips">
+		<parameter name="moduleName" value="tooltips" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workflows1">
+		<parameter name="moduleName" value="workflows1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workflows2">
+		<parameter name="moduleName" value="workflows2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+
+	<test name="Workspace_Library">
+		<parameter name="moduleName" value="workspace_Library" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workspace_LibraryPage">
+		<parameter name="moduleName" value="workspace_LibraryPage" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workspace_Library_Message">
+		<parameter name="moduleName" value="workspace_Library_Message" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workspace_Library_Message1">
+		<parameter name="moduleName" value="workspace_Library_Message1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+
+	<test name="Workspace_Library_Message2">
+		<parameter name="moduleName" value="workspace_Library_Message2" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+</suite>

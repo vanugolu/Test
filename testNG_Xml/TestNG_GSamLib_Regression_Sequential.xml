@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GSamLib_Automation_Sequential" verbose="3">
+
+	<test name="SearchResultsListView4">
+		<parameter name="moduleName" value="searchResultsListView4" />
+		<classes>
+			<class name="com.aims.TestDriver">
+			</class>
+		</classes>
+	</test>	
+	
+	<test name="Home_Top5"> 
+		<parameter name="moduleName" value="home_top5" /> 
+		<classes> 
+			<class name="com.aims.TestDriver"></class> 
+		</classes> 
+	</test>
+	
+	<test name="NavigationIcons1">
+		<parameter name="moduleName" value="navigationIcons1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	<test name="reverseReplication1">
+		<parameter name="moduleName" value="reverseReplication1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	<test name="Header1">
+		<parameter name="moduleName" value="header1" />
+		<classes>
+			<class name="com.aims.TestDriver"></class>
+		</classes>
+	</test>
+	
+	<test name="TermsAndConditions"> 
+		<parameter name="moduleName" value="termsAndConditions" />
+	 	<classes> 
+	 		<class name="com.aims.TestDriver"></class>
+	  </classes> 
+	</test>
+	
+</suite>
