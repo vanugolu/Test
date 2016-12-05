@@ -1,0 +1,2 @@
+cd "/Users/test/Documents/AIMS-WORKSPACE/workspace/Parallel Execution - Regression Test - iMacSafari (QA-Noida1)/lib/grid"
+java -jar selenium-server-standalone.jar -role node -Dwebdriver.chrome.driver=../../drivers/chromedriver -nodeConfig DefaultNode_LOCAL_MAC.json
